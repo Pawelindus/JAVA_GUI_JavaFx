@@ -1,0 +1,22 @@
+.button {
+       -fx-background-color:
+           linear-gradient(#f0ff35, #a9ff00),
+           radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+       -fx-background-radius: 6, 5;
+       -fx-background-insets: 0, 1;
+       -fx-padding: 3 30 3 30;
+           -fx-text-fill: white;
+           -fx-font-size: 24px;
+        }
+.button:hover {
+   -fx-background-color:
+              linear-gradient(#FFE100, #E89300),
+              radial-gradient(center 50% -40%, radius 200%, #FFE100 45%, #E89300 50%);
+   -fx-text-fill: black;
+   }
+.button:active {
+   -fx-background-color:
+                 linear-gradient(#FFE100, #E89300),
+                 radial-gradient(center 50% -40%, radius 200%, #FFE100 45%, #E89300 50%);
+      -fx-text-fill: black;
+   }
